@@ -92,7 +92,7 @@ body{
 }
 .top-info__list li::before{
     content: "";
-    background-image: url(../portfolio-2.0/img/list-icon.png);
+    background-image: url(../img/list-icon.png);
     width: 13px;
     height: 13px;
     position: absolute;
@@ -109,8 +109,7 @@ body{
     margin-bottom: 15px;
 }
 
-.top-images {
-}
+
 .top-images__box {
     position: relative;
 }
@@ -234,7 +233,7 @@ body{
     left: 0;
     top:50%;
     transform: translateY(-50%);
-    background-image: url(../portfolio-2.0/img/price-icon.png);
+    background-image: url(../img/price-icon.png);
     width: 15px;
     height: 11px;
 }
