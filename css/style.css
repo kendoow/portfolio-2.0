@@ -371,6 +371,7 @@ body{
 }
 .reviews-slider__item {
     padding-bottom: 50px;
+    border: none;
 }   
 .reviews-box {
     display: flex;
