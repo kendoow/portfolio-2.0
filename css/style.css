@@ -353,8 +353,8 @@ body{
 .reviews-slider .slick-dots li{
     margin: 0 8px;
 }
-.slick-slide:active{
-    outline: none
+.slick-slide:focus {
+    outline: none;
 }
 .reviews-slider .slick-dots li.slick-active button{
     background-color: #fff;
