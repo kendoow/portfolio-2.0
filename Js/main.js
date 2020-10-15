@@ -8,6 +8,19 @@ $(function(){
         autoplaySpeed: 2000,
         arrows:false,
         dots:true,
+        responsive: [
+            {
+              breakpoint: 1106  ,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+              }
+            }
+        ]
     });
 
     $('.btn__menu').on('click', function(){
