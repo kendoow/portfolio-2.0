@@ -1,0 +1,55 @@
+@media(max-width:1065px){
+    .top-info{
+        max-width: 425px;
+    }
+}
+@media(max-width:992px){
+   .menu__list{
+    display: none;
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #000;
+    z-index: 5;
+}
+   .btn__menu{
+       display: block;
+   }
+   .menu__list li{
+       margin-left: 0;
+   }
+   .menu__list a{
+       display: block;
+       padding: 10px 0;
+       border-bottom: 1px solid #000;
+       background-color: #fff;
+       
+   }
+}
+@media(max-width:940px){
+    .top-info{
+        max-width: 325px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){
+    .menu__list{
+        display: flex !important;
+    }
+}
