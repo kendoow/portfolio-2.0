@@ -352,7 +352,9 @@ body{
 }
 .reviews-slider .slick-dots li{
     margin: 0 8px;
-
+}
+.slick-slide:active{
+    outline: none
 }
 .reviews-slider .slick-dots li.slick-active button{
     background-color: #fff;
@@ -370,7 +372,6 @@ body{
 }
 .reviews-slider__item {
     padding-bottom: 50px;
-    
 }   
 .reviews-box {
     display: flex;
